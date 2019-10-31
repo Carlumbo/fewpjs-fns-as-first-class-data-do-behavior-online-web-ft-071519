@@ -18,10 +18,5 @@ function greet(timeString) {
     document.getElementById('greeting').innerText = message
   }
 
-
-function handleClick(e) {
-  const timeString = document.getElementById('time'.value)
-  displayMessage(greet(timeString))
-}
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
